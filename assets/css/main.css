@@ -1474,9 +1474,32 @@ input, select, textarea {
 
 /* Table */
 
+	.tablecontainer {
+		margin: 0 auto;
+		max-width: 100%;
+		width: 68em;
+		padding: 0.5em 1em 0.5em 1em;
+	}
+
 	table {
 		width: 100%;
 	}
+
+	th {
+		font-size: 1.2em;
+	  }
+
+	td {
+		color: #595557;
+	  }
+	
+	th, td {
+		padding-top: 10px;
+		padding-bottom: 20px;
+		padding-left: 30px;
+		padding-right: 40px;
+		border: 2px solid #ddd;
+	  }
 
 		table.default {
 			width: 100%;
@@ -2792,6 +2815,10 @@ input, select, textarea {
 			hr {
 				margin: 1em 0 1em 0;
 			}
+
+			.smallest {
+				font-size: 80%;
+			  }
 
 		/* Section/Article */
 
